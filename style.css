@@ -45,6 +45,22 @@ p{
     margin: auto;
 }
 
+#contact{
+    display: flex;
+    max-width: 600px;
+}
+#contact li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+
+img{
+    flex: auto;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
 #projects{
     max-width: 800px;
     margin: auto;
