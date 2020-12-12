@@ -6,7 +6,8 @@ h2{
 }
 
 nav{
-    margin: 0 auto;
+    text-align: center;
+    padding-right: 25px;
 
 }
 
@@ -16,6 +17,7 @@ ul{
 }
 li{
     flex: auto;
+
 }
 
 #photo {
