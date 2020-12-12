@@ -1,3 +1,17 @@
+html{
+    background-color: darkslategrey;
+}
+
+body{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:floralwhite;
+    font-family: Helvetica, sans-serif;
+    color: darkslategray;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 h1{
     text-align: center;
 }
@@ -5,9 +19,15 @@ h2{
     text-align: center;
 }
 
+h3{
+    text-align: center;
+}
+
 nav{
     text-align: center;
     padding-right: 25px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 
 }
 
@@ -20,7 +40,38 @@ li{
 
 }
 
+p{
+    max-width: 800px;
+    margin: auto;
+}
+
+#projects{
+    max-width: 800px;
+    margin: auto;
+}
+
 #photo {
+    max-width: 300px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#phone_image{
     width: 300px;
-    border-radius: 50%;
+    border-radius: 100%;
+}
+
+#mail_image{
+    width: 300px;
+    border-radius: 100%;
+}
+
+#linkedin_image{
+    width: 300px;
+    border-radius: 100%;
 }
