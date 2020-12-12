@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    flex: auto;
+}
+
+#photo {
+    width: 300px;
+    border-radius: 50%;
+}
