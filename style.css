@@ -30,13 +30,16 @@ nav{
 
 }
 
-ul{
+.menu_options{
     display: flex;
     list-style-type: none;
 }
-li{
+.menu_options li{
     flex: auto;
 
+}
+img{
+    width: 100%;
 }
 
 p{
@@ -44,15 +47,19 @@ p{
     margin: auto;
 }
 
-#contact{
+.contact{
     margin: 0;
     padding: 0;
     list-style-type: none;
+    text-align: center
+    
 }
-#contact li{
+
+.contact li{
+    width: 100px;
     padding: 20px 10px;
+    border-radius: 50%;
     display: inline-block;
-    padding: 20px 10px;
 }
 
 
@@ -72,17 +79,6 @@ p{
 
 }
 
-#phone_image{
-    width: 300px;
-    border-radius: 100%;
-}
-
-#mail_image{
-    width: 300px;
-    border-radius: 100%;
-}
-
 #linkedin_image{
-    width: 300px;
-    border-radius: 100%;
+    border-radius: 50%;
 }
